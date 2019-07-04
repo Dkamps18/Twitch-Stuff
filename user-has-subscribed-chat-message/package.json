@@ -1,0 +1,12 @@
+{
+    "name": "user-has-subscribed",
+    "author": "Dkamps18",
+    "version": "1.0.0",
+    "description": "twitch subscription notice.",
+    "main": "index.js",
+    "dependencies": {
+      "tmi.js": "^1.4.5"
+    },
+    "devDependencies": {},
+    "license": "ISC"
+  }
