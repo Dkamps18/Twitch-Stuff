@@ -9,19 +9,18 @@ var message = 'bleedPurple {user} just subscribed for their {month} time! bleedP
 // Don't edit stuff below if you don't know what your doing.
 const tmi = require('tmi.js');
 const client = new tmi.client({
-		connection: {
-			reconnect: true,
-			secure: true
-		},
-		identity: {
-			username: username,
-			password: oauth
-        },
-        channels: [channel]
-	});
+	connection: {
+		reconnect: true,
+		secure: true
+	},
+	identity: {
+		username: username,
+		password: oauth
+	},
+	channels: [channel]
+});
 
-client.connect()
-.then(() => {
+client.connect().then(() => {
 	console.log('Connected');
 });
 
