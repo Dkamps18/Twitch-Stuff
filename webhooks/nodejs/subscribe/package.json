@@ -1,0 +1,11 @@
+{
+  "name": "webhooks-subscribe",
+  "version": "1.0.0",
+  "description": "Subscribe to Twitch webhooks example",
+  "author": "Dkamps18",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0"
+  }
+}
